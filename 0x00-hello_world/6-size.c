@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * return : Always 0 (Success)
+ * return - Always 0 (Success)
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 	printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
 	printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
-	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(f);
+	printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 
 	return (0);
 }
