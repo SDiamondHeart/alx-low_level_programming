@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints if number is positive, zero or negative
- *
+ * main - assigns a ranndom number to the int n everytime it executes,
+ * and prints it
  * Return : Always 0 (Success)
  */
 int main(void)
