@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet at reverse
+ * main - This is the entry point of the code
  *
- * Return : Always 0 (Success)
+ * Description: This program prints the lowercase alphabets in reverse
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
