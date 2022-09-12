@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - assigns a random number to print the last digit of the
- * number stored in the variable n
+ * main - This is the entry point of the code
  *
- * Return : Always 0 (Success)
+ * Description: This program prints ofthe numbers stored in the variable
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
