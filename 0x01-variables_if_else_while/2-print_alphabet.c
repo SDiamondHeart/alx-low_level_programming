@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabetic
+ * main - This is the entry code of the point
  *
- * Return : Always (Success)
+ * Description: This program prints the alphabet in lowercase
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
