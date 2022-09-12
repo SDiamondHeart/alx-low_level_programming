@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints the numbers since 0 to 9
+ * main - This is the main entry point of the code
  *
- * Return : Always 0 (Success)
+ * Description: This program prints all single digitd numbers of base 10 from 0
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
