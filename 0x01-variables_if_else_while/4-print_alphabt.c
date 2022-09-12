@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints some letters of the alphabet
+ * main - This is the entry point of the code
  *
- * Return : Always 0 (Success)
+ * Description: This program prints alphabets in lowercase
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
