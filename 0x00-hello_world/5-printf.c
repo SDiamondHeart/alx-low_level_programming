@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - This is the entry point of this code
  *
- * Description: This program prints exactly what is in the string
+ * Description: This program prints exactly the string
  *
- * Return : 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
