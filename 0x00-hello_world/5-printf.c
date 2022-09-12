@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - printf function
  *
- * Return : 0 when the code is printed (Success)
+ * Description : prints the string with the main function
+ *
+ * Return : 0 if it is executed properly, non-zero otherwise
  */
 int main(void)
 {

@@ -2,7 +2,8 @@
 /**
  * main - Entry point
  *
- * return - Always 0 (Success)
+ * Description: This is on the sizes of various types of computer
+ * Return: 0 (Success)
  */
 int main(void)
 {

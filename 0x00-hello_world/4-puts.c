@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - This is the entry point of the code
  *
- * Return : Always 0 (Success)
+ * Description: Prints with the puts() function
+ *
+ * Return : 0 if success, non-zero if otherwise
  */
-int main(void)
+int main(void) /* Entry point of the code with 0 as return value */
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
