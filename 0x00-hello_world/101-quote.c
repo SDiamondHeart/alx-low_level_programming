@@ -3,8 +3,9 @@
 /**
  * main - Entry point
  *
- * Description : prints and that piece...
- * Return : 1 if successful
+ * Description: This program prints exactly what is in the string
+ *
+ * Return: 1 if successful
  */
 int main(void)
 {
