@@ -3,9 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - assigns a ranndom number to the int n everytime it executes,
- * and prints it
- * Return : Always 0 (Success)
+ * main - This is the entry point of the code
+ *
+ * Description: This program prints the stored numbers in positive or negative
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
