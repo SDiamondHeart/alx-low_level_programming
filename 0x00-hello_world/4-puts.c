@@ -2,11 +2,11 @@
 /**
  * main - This is the entry point of the code
  *
- * Description: Prints with the puts() function
+ * Description: This is a program that prints exactly the string
  *
- * Return : 0 if success, non-zero if otherwise
+ * Return: 0 (Success)
  */
-int main(void) /* Entry point of the code with 0 as return value */
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
