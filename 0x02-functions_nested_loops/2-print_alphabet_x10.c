@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * print_alphabet_x10 - This is the user defined function for the code
@@ -13,17 +13,15 @@ void print_alphabet_x10(void)
 	int count;
 
 	count = 0;
-	while (count < 10);
+	while (count < 10)
 	{
-		for (alphabet 'a'; alphabet <= 'z'; alphabet++)
+		for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 		{
-			putchar(alphabet);
+			_putchar(alphabet);
 		}
 
-		count++
+		count++;
 
-		putchar('\n');
+		_putchar('\n');
 	}
-
-	return (0);
 }

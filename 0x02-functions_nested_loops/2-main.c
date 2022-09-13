@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * main - This is the main entry point of the code
@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	print_alphabet_x10(void);
+	print_alphabet_x10();
 
 	return (0);
 }
