@@ -16,7 +16,7 @@ int main(void)
 	count = 0;
 	i = 0;
 	j = 1;
-	for (count = 0; count <= 91; count++)
+	for (count = 1; count <= 91; count++)
 	{
 		k = i + j;
 		i = j;
