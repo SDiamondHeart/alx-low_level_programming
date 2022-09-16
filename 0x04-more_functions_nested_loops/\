@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_triangle - this is the user defined function for the code
- * @size: size of the triangle
+ * print-traingle - user defined function for the code
+ * @size: size of the triangle to print
  *
- * Description: this code prints a traingle followed by a new line
+ * Description: prints a traingle followed by a new line
  *
  * Return: 0
  */
 
-void print_triangle(int size)
+void prinnt_traingle(int size)
 {
 	int t;
 	int u;
@@ -30,8 +30,8 @@ void print_triangle(int size)
 			{
 				_putchar('#');
 			}
-		}
 
-		_putchar('\n');
+			_putchar('\n');
+		}
 	}
 }
