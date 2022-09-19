@@ -1,0 +1,22 @@
+#include  "main.h"
+
+/**
+ * *_strepy - copies the string pointed by src, including
+ * terminating null byte (\0), to the buffer pointed to by the dest
+ * @dest: char type string
+ * @src: char type string
+ *
+ * Return: pointer to dest
+ */
+
+char *_strepy(char *dest, char *src)
+{
+	int i = -1;
+
+	do {
+		i++;
+		dest[i] = src[i];
+	} while (src[i] != '\0');
+
+	return (dest);
+}
