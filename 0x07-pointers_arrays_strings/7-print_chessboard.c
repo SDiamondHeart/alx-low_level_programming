@@ -11,11 +11,8 @@ void print_chessboard(char (*a)[8])
 {
 	int b, c;
 
-	b = 0;
-	while (b < 8)
+	for (b = 0; b < 8; b++)
 	{
-		b++;
-
 		c = 0;
 		while (c < 8)
 		{
