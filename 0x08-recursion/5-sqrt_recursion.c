@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _sqrt2 - makes possible to calculate from 1 to n
+ * sqrt2 - makes possible to calculate from 1 to n
  * @r: same as number n
  * @s: number that iterates from 1 to n
  *
@@ -33,5 +33,10 @@ int sqrt2(int r, int s)
 
 int _sqrt_recursion(int n)
 {
+	if (n == 0)
+	{
+		return (0);
+	}
+
 	return (sqrt2(n, 1));
 }
