@@ -1,3 +1,3 @@
-My irst readme
+My first readme
 
 STATIC LIBRARIES
