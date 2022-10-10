@@ -15,6 +15,15 @@ struct dog
 	char *owner;
 };
 
+/**
+ * dog_t - new name for tyoe struct dog
+ * @name: name of dog
+ * @age: age of dog
+ * @owner: owner of dog
+ */
+
+typedef struct dog dog_t(char *name, float age, char *owner);
+
 int _putchar(char);
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
