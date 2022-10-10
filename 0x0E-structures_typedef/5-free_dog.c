@@ -5,7 +5,7 @@
  * free_dog - frees dog
  * @d: pointer to structure
  *
- * Return: 0
+ * Return: void
  */
 
 void free_dog(dog_t *d)
