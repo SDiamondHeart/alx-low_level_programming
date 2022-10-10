@@ -17,12 +17,9 @@ struct dog
 
 /**
  * dog_t - new name for tyoe struct dog
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of dog
  */
 
-typedef struct dog dog_t(char *name, float age, char *owner);
+typedef struct dog dog_t;
 
 int _putchar(char);
 
