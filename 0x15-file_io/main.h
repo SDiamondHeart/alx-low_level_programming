@@ -1,7 +1,17 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
-int _putchar(char c);
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/uio.h>
+
+void copy_file(const char *src, const char *dest);
+
+int _strlen(char *s);
 
 ssize_t read_textfile(const char *filename, size_t letters);
 
