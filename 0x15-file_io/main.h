@@ -9,6 +9,8 @@
 #include <sys/stat.h>
 #include <sys/uio.h>
 
+int _putchar(char c);
+
 void copy_file(const char *src, const char *dest);
 
 int _strlen(char *s);
